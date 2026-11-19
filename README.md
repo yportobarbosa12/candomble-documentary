@@ -29,3 +29,7 @@ If a photo file is missing, the site shows a colored placeholder with a label, s
 2. Replace the text in `index.html` (search for each section comment).
 3. Swap the files in `assets/`.
 4. Update `CONTACT_EMAIL` and `TRAILER_URL` in `js/main.js`.
+
+## Documentation
+
+Every step of the build is documented in the [docs](docs/) folder, including the setup, design decisions, a code walkthrough, a media checklist, a thesis reuse guide and a changelog.
