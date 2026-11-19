@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candomblé, Roots of Fate | A documentary by Yasmin Barbosa</title>
+  <meta name="description" content="Candomblé, Roots of Fate is a 14 minute documentary that follows two terreiros, one in Salvador, Bahia and one in São Paulo, and shows how the religion is lived, danced and defended.">
+  <meta property="og:title" content="Candomblé, Roots of Fate">
+  <meta property="og:description" content="Two terreiros. One faith. A documentary by Yasmin Barbosa.">
+  <meta property="og:type" content="video.movie">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Scroll progress bar -->
+  <div class="progress" id="progress"></div>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo">Roots of Fate</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#film">The Film</a>
+      <a href="#terreiros">Two Terreiros</a>
+      <a href="#people">People</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#statement">Director</a>
+      <a href="#screenings">Screenings</a>
+      <a href="#contact" class="btn btn--small">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <!-- To use your own hero video: put a short, silent loop at assets/video/hero.mp4 and a still image at assets/images/hero-poster.jpg -->
+      <video class="hero__video" id="heroVideo" autoplay muted loop playsinline poster="assets/images/hero-poster.jpg">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="eyebrow">A documentary by Yasmin Barbosa</p>
+        <h1 class="hero__title">
+          <span class="hero__small">Candomblé</span>
+          Roots of Fate
+        </h1>
+        <p class="hero__tagline">Two terreiros. One faith. Roots that refuse to be erased.</p>
+        <div class="hero__actions">
+          <button class="btn btn--play" data-open-trailer>
+            <span class="btn__icon">&#9654;</span> Watch the trailer
+          </button>
+          <a href="#film" class="btn btn--ghost">Explore the film</a>
+        </div>
+      </div>
+      <a href="#film" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- QUICK FACTS (animated counters) -->
+    <section class="facts">
+      <div class="facts__item reveal">
+        <span class="facts__num" data-count="14">0</span>
+        <span class="facts__label">Minutes</span>
+      </div>
+      <div class="facts__item reveal">
+        <span class="facts__num" data-count="2">0</span>
+        <span class="facts__label">Terreiros</span>
+      </div>
+      <div class="facts__item reveal">
+        <span class="facts__num" data-count="2">0</span>
+        <span class="facts__label">Cities</span>
+      </div>
+      <div class="facts__item reveal">
+        <span class="facts__num" data-count="2024">0</span>
+        <span class="facts__label">Filmed in</span>
+      </div>
+    </section>
+
+    <!-- THE FILM / SYNOPSIS -->
+    <section class="section section--sand" id="film">
+      <div class="wrap split">
+        <div class="split__text reveal">
+          <p class="eyebrow eyebrow--dark">The Film</p>
+          <h2>A faith that is danced, read and defended</h2>
+          <p class="lead">
+            Candomblé is an Afro-Brazilian religion that carries centuries of memory, music and community. This documentary follows two terreiros, the sacred houses where the religion is practiced, and asks what it means to live that faith in two very different places.
+          </p>
+          <p>
+            In Salvador, on an island in Bahia, the religion is lived with calm. In Itaquera, a favela in the East Zone of São Paulo, the same faith has to face prejudice and persecution. Through dance, the game of búzios and the voices of the people who keep these houses alive, the film puts the two realities side by side.
+          </p>
+          <p>
+            The main character of the film is Candomblé itself.
+          </p>
+          <button class="btn btn--dark" data-open-trailer>
+            <span class="btn__icon">&#9654;</span> Watch the trailer
+          </button>
+        </div>
+        <div class="split__media reveal">
+          <figure class="media media--tall" data-label="Film still">
+            <img src="assets/images/film-still.jpg" alt="Still from Candomblé, Roots of Fate" onerror="this.remove()">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- THEMES -->
+    <section class="section section--forest" id="themes">
+      <div class="wrap">
+        <p class="eyebrow">What the film explores</p>
+        <h2 class="center">Four ways into the story</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__num">01</span>
+            <h3>Dance</h3>
+            <p>Movement is a form of prayer. The camera stays close to the dances that open the ceremonies.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">02</span>
+            <h3>Búzios</h3>
+            <p>The game of cowrie shells is how guidance is asked for and received inside the terreiro.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">03</span>
+            <h3>Community</h3>
+            <p>Followers, elders and families share the work of keeping the house and the tradition alive.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__num">04</span>
+            <h3>Intolerance</h3>
+            <p>Religious intolerance shapes daily life for many practitioners, and the film does not look away from it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TWO TERREIROS (interactive) -->
+    <section class="section terreiros" id="terreiros" data-place="bahia">
+      <div class="wrap">
+        <p class="eyebrow">Two terreiros</p>
+        <h2 class="center">Same faith, two realities</h2>
+
+        <div class="tabs" role="tablist">
+          <button class="tab is-active" role="tab" data-place="bahia" aria-selected="true">Salvador, Bahia</button>
+          <button class="tab" role="tab" data-place="saopaulo" aria-selected="false">São Paulo</button>
+        </div>
+
+        <div class="panel is-active" data-panel="bahia">
+          <div class="panel__media">
+            <figure class="media media--wide" data-label="Terreiro in Bahia">
+              <img src="assets/images/bahia-terreiro.jpg" alt="Terreiro on an island in Salvador, Bahia" onerror="this.remove()">
+            </figure>
+          </div>
+          <div class="panel__text">
+            <h3>An island in Salvador</h3>
+            <p>Here the religion is practiced in a more peaceful setting. The rhythm of the house follows the ceremonies, the sea and the people who have gathered there for years.</p>
+            <ul class="pills">
+              <li>Salvador, Bahia</li>
+              <li>Island setting</li>
+              <li>Filmed in 2024</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="panel" data-panel="saopaulo">
+          <div class="panel__media">
+            <figure class="media media--wide" data-label="Terreiro in São Paulo">
+              <img src="assets/images/saopaulo-terreiro.jpg" alt="Terreiro in Itaquera, São Paulo" onerror="this.remove()">
+            </figure>
+          </div>
+          <div class="panel__text">
+            <h3>Itaquera, East Zone</h3>
+            <p>In a favela in the East Zone of the biggest city in Brazil, the same faith lives under pressure. Practitioners face prejudice, and keeping the terreiro open is an act of resistance.</p>
+            <ul class="pills">
+              <li>São Paulo, SP</li>
+              <li>Itaquera</li>
+              <li>Filmed in 2024</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PEOPLE -->
+    <section class="section section--sand" id="people">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--dark">In the film</p>
+        <h2 class="center">The people of the terreiro</h2>
+        <div class="people">
+          <!-- TODO: add each person's role and a short quote when ready -->
+          <article class="person reveal">
+            <figure class="media media--portrait" data-label="Miguel Rosas">
+              <img src="assets/images/miguel-rosas.jpg" alt="Miguel Rosas" onerror="this.remove()">
+            </figure>
+            <h3>Miguel Rosas</h3>
+            <p class="person__role">Featured in the film</p>
+          </article>
+          <article class="person reveal">
+            <figure class="media media--portrait" data-label="Júnior">
+              <img src="assets/images/junior.jpg" alt="Júnior" onerror="this.remove()">
+            </figure>
+            <h3>Júnior</h3>
+            <p class="person__role">Featured in the film</p>
+          </article>
+          <article class="person reveal">
+            <figure class="media media--portrait" data-label="The community">
+              <img src="assets/images/community.jpg" alt="Followers of the terreiro" onerror="this.remove()">
+            </figure>
+            <h3>The community</h3>
+            <p class="person__role">Followers of both terreiros</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY (filter + lightbox) -->
+    <section class="section section--dark" id="gallery">
+      <div class="wrap">
+        <p class="eyebrow">Gallery</p>
+        <h2 class="center">Frames from the film</h2>
+
+        <div class="filters" id="filters">
+          <button class="chip is-active" data-filter="all">All</button>
+          <button class="chip" data-filter="bahia">Bahia</button>
+          <button class="chip" data-filter="saopaulo">São Paulo</button>
+          <button class="chip" data-filter="dance">Dance</button>
+          <button class="chip" data-filter="buzios">Búzios</button>
+        </div>
+
+        <div class="gallery" id="gallery-grid">
+          <!-- Replace the files in assets/images/gallery/ and edit the alt text and data-tags -->
+          <figure class="media gallery__item" data-tags="bahia dance" data-label="Photo 01"><img src="assets/images/gallery/01.jpg" alt="Dance in the Bahia terreiro" onerror="this.remove()"></figure>
+          <figure class="media gallery__item gallery__item--wide" data-tags="saopaulo" data-label="Photo 02"><img src="assets/images/gallery/02.jpg" alt="Terreiro in São Paulo" onerror="this.remove()"></figure>
+          <figure class="media gallery__item" data-tags="buzios bahia" data-label="Photo 03"><img src="assets/images/gallery/03.jpg" alt="Game of búzios" onerror="this.remove()"></figure>
+          <figure class="media gallery__item gallery__item--tall" data-tags="dance saopaulo" data-label="Photo 04"><img src="assets/images/gallery/04.jpg" alt="Ceremony in São Paulo" onerror="this.remove()"></figure>
+          <figure class="media gallery__item" data-tags="bahia" data-label="Photo 05"><img src="assets/images/gallery/05.jpg" alt="Island in Salvador" onerror="this.remove()"></figure>
+          <figure class="media gallery__item" data-tags="buzios saopaulo" data-label="Photo 06"><img src="assets/images/gallery/06.jpg" alt="Búzios reading in São Paulo" onerror="this.remove()"></figure>
+          <figure class="media gallery__item gallery__item--wide" data-tags="dance bahia" data-label="Photo 07"><img src="assets/images/gallery/07.jpg" alt="Followers dancing" onerror="this.remove()"></figure>
+          <figure class="media gallery__item" data-tags="saopaulo" data-label="Photo 08"><img src="assets/images/gallery/08.jpg" alt="Itaquera street" onerror="this.remove()"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIPS / BEHIND THE SCENES -->
+    <section class="section section--forest" id="clips">
+      <div class="wrap">
+        <p class="eyebrow">Behind the scenes</p>
+        <h2 class="center">Moments from the making</h2>
+        <div class="clips">
+          <!-- To add a clip: set data-video to a YouTube or Vimeo embed link, or a local file like assets/video/clip-1.mp4 -->
+          <button class="clip" data-video="" data-title="Clip 1">
+            <span class="clip__label">Clip 1</span>
+            <span class="clip__play">&#9654;</span>
+          </button>
+          <button class="clip" data-video="" data-title="Clip 2">
+            <span class="clip__label">Clip 2</span>
+            <span class="clip__play">&#9654;</span>
+          </button>
+          <button class="clip" data-video="" data-title="Clip 3">
+            <span class="clip__label">Clip 3</span>
+            <span class="clip__play">&#9654;</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIRECTOR'S STATEMENT -->
+    <section class="section section--sand" id="statement">
+      <div class="wrap statement">
+        <figure class="media media--portrait statement__photo reveal" data-label="Yasmin Barbosa">
+          <img src="assets/images/director.jpg" alt="Yasmin Barbosa, director" onerror="this.remove()">
+        </figure>
+        <div class="reveal">
+          <p class="eyebrow eyebrow--dark">Director's statement</p>
+          <h2>Yasmin Barbosa</h2>
+          <!-- DRAFT: rewrite in your own words -->
+          <blockquote>
+            I wanted to show Candomblé as the people who live it show it to me. Two terreiros, two cities, and one religion that matters deeply to them and to Brazil. The film follows the dances and the búzios, and it also stays with the difficult part: the intolerance that many practitioners face every day.
+          </blockquote>
+          <p class="person__role">Director and editor</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREENINGS -->
+    <section class="section section--dark" id="screenings">
+      <div class="wrap">
+        <p class="eyebrow">Screenings and festivals</p>
+        <h2 class="center">Bring the film to your community</h2>
+        <div class="cards cards--two">
+          <article class="card reveal">
+            <h3>Upcoming screenings</h3>
+            <p>Dates and venues will be announced here. Check back soon or join the mailing list below.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Request a screening</h3>
+            <p>Teaching a class, running a community space or organizing an event? Write to us and we will help you host the film.</p>
+            <a href="#contact" class="btn btn--small">Get in touch</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESS -->
+    <section class="section section--sand" id="press">
+      <div class="wrap">
+        <p class="eyebrow eyebrow--dark">Press</p>
+        <h2 class="center">What people are saying</h2>
+        <!-- TODO: replace with real quotes when you have them -->
+        <p class="center muted">Reviews and festival selections will appear here.</p>
+      </div>
+    </section>
+
+    <!-- CREDITS -->
+    <section class="section section--forest" id="credits">
+      <div class="wrap">
+        <p class="eyebrow">Credits</p>
+        <h2 class="center">Film details</h2>
+        <dl class="credits">
+          <div><dt>Title</dt><dd>Candomblé, Roots of Fate</dd></div>
+          <div><dt>Directed by</dt><dd>Yasmin Barbosa</dd></div>
+          <div><dt>Edited by</dt><dd>Yasmin Barbosa</dd></div>
+          <div><dt>Runtime</dt><dd>14 minutes</dd></div>
+          <div><dt>Year</dt><dd>2024</dd></div>
+          <div><dt>Locations</dt><dd>Salvador, Bahia and São Paulo, Brazil</dd></div>
+          <div><dt>Featuring</dt><dd>Miguel Rosas, Júnior and the community of both terreiros</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--sand" id="contact">
+      <div class="wrap contact">
+        <div class="reveal">
+          <p class="eyebrow eyebrow--dark">Contact</p>
+          <h2>Let's talk about the film</h2>
+          <p class="lead">Press, screenings, schools and collaborations are all welcome.</p>
+        </div>
+        <!-- Change the email in js/main.js (search for CONTACT_EMAIL) -->
+        <form class="form reveal" id="contactForm">
+          <label>Name <input type="text" name="name" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <button type="submit" class="btn btn--dark">Send message</button>
+          <p class="form__note" id="formNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <strong>Candomblé, Roots of Fate</strong>
+      <span>A documentary by Yasmin Barbosa</span>
+    </div>
+    <div class="footer__links">
+      <a href="#film">The Film</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#screenings">Screenings</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="footer__copy">&copy; <span id="year">2026</span> Yasmin Barbosa. All rights reserved.</p>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div class="modal" id="videoModal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__box">
+      <button class="modal__close" data-close aria-label="Close">&times;</button>
+      <div class="modal__body" id="videoBody"></div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="modal" id="lightbox" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__box modal__box--image">
+      <button class="modal__close" data-close aria-label="Close">&times;</button>
+      <img id="lightboxImg" src="" alt="">
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
